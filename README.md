@@ -13,6 +13,9 @@ This is a simple educational website project built using HTML, CSS, and JavaScri
 - HTML
 - CSS
 - JavaScript
+- jquary
+- owl
+- carasol
 
 ## Author
 Rachit Sharma
