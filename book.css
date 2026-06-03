@@ -1,0 +1,100 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.bokin{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+justify-content: space-around;
+flex-direction: row;
+/* border: 2px solid rgb(0, 255, 13); */
+background-image: url(/images/bkbck.avif);
+/* background-size: cover; */
+
+}
+.inn1{
+    height: 85%;
+    width: 25%;
+    margin-top: 2%;
+    /* border: 2px solid red; */
+}
+.innn1 img{
+    height: 25vh;
+    width: 100%;
+    /* margin: 2%; */
+    padding: 2%;
+    overflow: hidden;
+    box-shadow: 4px 8px 10px salmon;
+    border-radius: 5%;
+    
+}
+.men{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 10%; */
+    
+}
+.butn{
+    width: 110px;
+    border-radius: 10%;
+    box-shadow: 2px 4px 8px black;
+    background-color: aqua;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 50px;
+    /* margin-top: %; */
+    
+}
+.butn :hover{
+    box-shadow: none;
+    background-color: blueviolet;
+    /* background-image: conic-gradient(transpanent,transpanent,transpanent,#ee00ff) */
+}
+
+
+
+
+
+
+
+
+/* Tablet k liye  */
+@media screen and (max-width: 768px) {
+
+    .bokin {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .inn1 {
+        width: 80%;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+    .inn1 {
+        width: 95%;
+    }
+
+    .innn1 img {
+        height: auto;
+    }
+
+    .men {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .butn {
+        width: 150px;
+    }
+}

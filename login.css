@@ -1,0 +1,100 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /* background-color: gray; */
+    z-index: -999;
+    
+}
+.input {
+    width: 20vw;
+    z-index: 999;
+}
+form{
+    /* border: 1px dotted black; */
+   /* background-image: url(images/bck1.avif); */
+   /* background-color: gold; */
+   /* text-align: center
+   ; */
+   /* justify-content: center; */
+    /* width: 40%; */
+}
+.anuu{
+    /* height: 60vh; */
+    padding: 30px;
+    width: 40vw;
+    /* border: 2px solid red; */
+    border: 5px dotted lightblue;
+    /* background-color:aqua; */
+    text-align: center;
+    box-shadow: 2px 4px 6px salmon;
+    /* justify-content: center;
+     */
+     margin-left: auto;
+     /* background-color: rgb(241, 228, 159); */
+     margin-right: auto;
+    /* display: block; */
+    /* background-image: url(/images/bck1.avif); */
+}
+.anuu input{
+    width: 20vw;
+    text-align: center;
+    height: 4vh;
+    margin: 10px;
+    /* background-color: aqua; */
+    /* display: block; */
+}
+.anuu label{
+    /* text-align: center; */
+    /* background-color: aqua; */
+    /* display: block; */
+    font-weight: 700;
+    font-size: 1.3rem;
+
+}
+button{
+    /* justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block; */
+    margin-top: 2vh;
+    background-color: aqua;
+    /* width: 5vw; */
+    /* height: 6vh; */
+    padding: 6px 23px;
+    border-radius: 10%;
+}
+
+
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+
+    .anuu {
+        width: 80%;
+    }
+
+    .anuu input {
+        width: 80%;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+    .anuu {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .anuu input {
+        width: 90%;
+    }
+
+    img {
+        width: 120px !important;
+        height: auto !important;
+    }
+}

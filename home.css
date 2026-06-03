@@ -1,0 +1,880 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.main {
+    height: 1vh;
+    /* background-image: url(/images/7.avif); */
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: monu 15s linear infinite;
+    position: fixed;
+    margin-top: -2%;
+    z-index: 9999;
+    box-shadow: 5px 12px 18px gray;
+}
+.aff{
+    background-image: url(/images/7.avif);
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+
+/* @keyframes monu{
+    0%{
+        background-image: url(/images/3.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background: ; */
+/* background-size: auto; */
+
+/* }
+    /* 50%{
+        background-image: url(/images/5.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background: ; */
+/* } */
+/* 100%{
+        background-image: url(/images/n.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background: ; */
+/* } */
+.logo {
+    width: 15%;
+    height: auto;
+    overflow: hidden;
+    /* border: 2px solid red; */
+    border-radius: 10%;
+}
+
+.logo img {
+    height: 15vh;
+    width: 90%;
+    border-radius: 50%;
+}
+
+nav ul {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    /* font-size: 100; */
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-top: 2%;
+/* color: black; */
+}
+ul li a{
+    color:white;
+    font-size: 1rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+.nav ul {
+    color: blueviolet;
+
+}
+h1{
+    text-align:center ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 2%;
+    /* border: 2px solid red; */
+    background-color: rgb(49, 52, 246);
+    position: sticky;
+    z-index: 50;
+
+}
+.main :hover{
+    background-color: rgb(118, 98, 250);
+}
+.aa :hover{
+color: black;
+}
+li :hover{
+    color: black;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-shadow: 1px 2px 3px salmon; */
+    text-transform: lowercase;
+
+}
+
+
+.btn {
+    width: 15%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    height: 1vh;
+    font-size: 1rem;
+    font-weight: 800;
+    /* transform: rotate(180deg); */
+}
+.bt1{
+    
+    border: none;
+    background-color: aqua;
+    /* padding: 5px; */
+    box-shadow: 2px 5px 10px black;
+    border-radius: 3px;
+}
+/* .bt1 button :hover{
+    box-shadow: 1px 1px 1px black;
+background-color: rgb(107, 128, 0);
+} */
+/* button{
+    font-size: 1rem;
+    padding: 4px;
+    background-color: rgb(241, 146, 241);
+    height: 40px;
+    font-weight: 800;
+    border-radius: 15%;
+    color:white;
+
+} */
+.sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-top: 2%;
+    height: 400px;
+    border-radius: 10%;
+}
+.one h1{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.one p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.two h1{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.two p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.trd h1{
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-shadow: 2px 4px 8px orchid;
+
+}
+.trd p{
+    font-size: 14px;
+    font-weight: 600;
+    /* text-shadow: 2px 4px 8px orchid; */
+}
+.h1 h1{
+    text-align: center;
+    font-size:4rem ;
+    margin-top: 2%;
+}
+.one{
+    width: 30%;
+height: 100%;
+}
+.im{
+    height: 100%;
+    width: 100%;
+ /* background: linear-gradient(#006992,#2E1760);    */
+}
+
+.im :hover{
+    padding: 10%;
+    box-shadow: 2px 4px 10px salmon;
+    transform: scale(0.8);
+    transition: 2s;
+}
+/* .one :hover{
+    padding: 10%;
+    box-shadow: 2px 4px 10px salmon;
+    transform: scale(0.8);
+
+} */
+/* .two :hover{
+    padding: 10%;
+    box-shadow: 2px 4px 10px  salmon;
+    transform: scale(0.8);
+
+} */
+/* .two img {
+   height: 100%;
+   width: 100%;
+} */
+
+/* .trd img :hover{
+    padding: 10%;
+    box-shadow: 2px 4px 10px salmon;
+    transform: scale(0.9);
+} */
+.trd img{
+    height: 200px;
+}
+
+.two{
+    width: 30%;
+    height: 100%;
+}
+.trd{
+    width: 30%;
+    height: 100%;
+}
+.sec2 img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.ani{
+    height: 70vh;
+    width: 100%;
+    padding: 2%;
+    margin-top: 5%;
+    display: flex;
+}
+.anu{
+    animation: meku 16s linear infinite;
+    height: 66vh;
+    width: 100%;
+}
+.ani h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.4rem;
+    text-shadow: 2px 4px 8px salmon;
+}
+@keyframes meku{
+    0%{
+        background-image: url(/images/ani6.avif);
+        background-position: center;
+        background-repeat: no-repeat
+        
+    }
+    25%{
+        background-image: url(/images/ani2.avif);
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+    50%{
+        background-image: url(/images/ani4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    70%{
+        background-image: url(/images/ani5.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+ 
+    100%{
+        background-image: url(/images/ani8.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+.abt1{
+    height: 40vh;
+    width: 80%;
+    border-radius: 0px 0px 100% ;
+    background-color: aqua;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    text-overflow: hidden;
+    
+}
+.abt2{
+    height: 50%;
+    width: 100%;
+    
+}
+.ab2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    background-color: aqua;
+    border-radius: 0px  0px 100% 0px;
+    transform: rotate(180deg);
+    z-index: -9999;
+
+}
+.imm2{
+    width: 30%;
+    transform: rotate(180deg);
+
+}
+.inp2{
+    width: 40%;
+    height: 80%;
+    text-align: center;
+    transform: rotate(180deg);
+width: 40%;
+
+
+}
+
+.abt1{
+    height: 50%;
+    width: 100%;
+    animation-name: aksh;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+.ab1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  
+}
+@keyframes aksh{
+    0%{
+        position: relative;
+        left: -700px;
+filter: opacity(60%);
+/* animation-delay: -3s; */
+    }
+    40%{
+        position: relative;
+        left: 200px;
+        filter: opacity(70%);
+    }
+
+    79%{
+        position: relative;
+        left: 100px;
+        filter: opacity(90%);
+    }
+100%{
+    position: relative;
+    right: 0px;
+    filter: opacity(100%);
+}
+} 
+
+
+.imm{
+    width: 60%;
+}
+.inp{
+    width: 80%;
+    overflow: hidden;
+    text-align: left;
+}
+.inp h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.inp2 h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.inp p{
+    font-size: 1rem;
+    font-weight: 800;
+}
+.inp2 p{
+    font-size: 1rem;
+    font-weight: 800;
+}
+.imm img{
+    height: 60%;
+    width: 40%;
+    border-radius: 50%;
+
+}
+.imm2 img{
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+    
+}
+
+
+.h{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 4%;
+    text-shadow: 2px 4px 8px salmon;
+    font-weight: 900;
+}
+.item{
+    width: 70%;
+    height: 50vh;
+    overflow: hidden;
+    border-radius: 10%;
+
+}
+.immg{
+    height: 80%;
+    width: 100%;
+    
+}
+.imh{
+    width: 100%;
+    height: 20%;
+}
+
+/* .item img{
+    width: 100%;
+    border-radius: 10%;
+    height: 90%;
+} */
+/* .item h3{
+    height: 10%;
+    overflow: visible;
+    width: 100%;
+} */
+/* .owlim{
+    height: 90%;
+    width: 100%;
+} */
+.oh1 h1{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 2px 4px 8px salmon;
+}
+.card{
+    height: 100%;
+    width: 100%;
+}
+.item{
+    /* border: 2px solid rebeccapurple; */
+    height: 39vh;
+    width: 78%;
+    
+}
+.item :hover{
+  transform: scale(0.9) ;
+  transition: 1s;
+  box-shadow: 2px 4px 8px salmon;
+  /* overflow: hidden; */
+}
+.card-img-top{
+    width: 100%;
+    height: 90%;
+}
+.owl img{
+    height: 28vh;
+    width: 100%;
+}
+.owl{
+    /* border: 2px solid red; */
+    height: 67vh;
+    background-image: url(/images/bck1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 999;
+}
+.book{
+    display: flex;
+    height: 60vh;
+    /* border: 2px solid rgb(0, 255, 42); */
+    justify-content: space-around;
+    animation: book 1.5s linear;
+}
+
+@keyframes book{
+    0%{
+        position: relative;
+        left: -700;
+        filter: opacity(80%);
+    }
+    35%{
+        position: relative;
+        left: -400;
+        filter: opacity(60%);
+    }
+    70%{
+        position: relative;
+        left: -200;
+        filter: opacity(0%);
+    }
+    100%{
+        position: relative;
+        left: 0;
+        filter: opacity(80%);
+    }
+}
+
+
+.bk{
+    width: 30%;
+    height: 100%;
+}
+.card1{
+    width: 100%;
+    height: 80%;
+    margin: 5%;
+    /* border: 2px solid red; */
+}
+.book{
+    background-image: url(/images/bk33.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.card1 img{
+    height: 70%;
+}
+.crdbt{
+    text-align: center;
+    height: 8vh;
+    width: 30%;
+    margin-left: 35%;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: -2%;
+    border-radius: 20%;
+    background-color: rgb(206, 247, 247);
+
+}
+.card1 :hover{
+    background-color: rgb(92, 237, 237);
+    border-radius: 10%;
+    /* box-shadow: 2px 4px 8px salmon; */
+    box-shadow: 4px 6px 10px salmon;
+
+    transition: 0.5s;
+    
+}
+.crdbt :hover{
+    font-style: italic;
+    background-color: white;
+    color: aqua;
+    box-shadow: 4px 6px 10px salmon;
+}
+.str{
+    color: black;
+}
+.str :hover{
+    background-color: gold;
+}
+
+.whats{
+    height: 70px;
+    width: 80px;
+    background-image: url(/images/whatsapp.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+ 
+}
+.program{
+    height: 150vh;
+    /* border: 2px solid red; */
+}
+.course{
+    height: 70px solid green;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.cardcr{
+    height:50vh ;
+    width: auto;
+}
+.cardcr img{
+    width: 100%;
+    height: 80%;
+    filter: drop-shadow(2px 4px 8px salmon );
+    border-radius: 10%;
+
+}
+.lomain{
+    box-sizing: border-box;
+    background-color: to-bottom #614, #518, #698;
+    /* color: rgb(251, 63, 242); */
+    background-color:tomato;
+    height: 70vh;
+    width: 100%;
+}
+.form{
+    border: 2px solid red
+}
+.testi{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cardtst{
+    height: 40vh;
+    border-radius: 10%;
+    box-shadow: 3px 5px 8px salmon;
+    text-align: center;
+    width: 20vh;
+    overflow: hidden;
+}
+.cardtst a{
+    width: 90px;
+    margin-top: -4px;
+}
+.cardtst img{
+    height: 55%;
+}
+.card-body2{
+    height: 45%;
+}
+
+
+
+
+
+
+
+/* ye  Tablet k liye reposeive */
+@media screen and (max-width: 992px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    nav ul {
+        width: 100%;
+        margin-top: 15px;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        width: auto;
+        margin-top: 15px;
+        gap: 10px;
+    }
+
+    .sec2 {
+        flex-direction: column;
+        height: auto;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .one,
+    .two,
+    .trd {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .ani {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .anu {
+        width: 100%;
+        height: 300px;
+    }
+
+    .about {
+        height: auto;
+    }
+
+    .ab1,
+    .ab2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imm,
+    .imm2,
+    .inp,
+    .inp2 {
+        width: 100%;
+    }
+
+    .imm img,
+    .imm2 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .book {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .bk {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    .course {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .cardcr {
+        width: 45%;
+    }
+
+    .owl {
+        height: auto;
+        padding-bottom: 40px;
+    }
+}
+
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+
+    .main {
+        position: relative;
+        height: auto;
+    }
+
+    .aff {
+        height: 40vh;
+        background-position: center;
+    }
+
+    .h1 h1,
+    .oh1 h1,
+    .h h1 {
+        font-size: 2rem !important;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bt1 {
+        margin: 5px;
+        padding: 8px 15px;
+    }
+
+    .one,
+    .two,
+    .trd {
+        width: 95%;
+    }
+
+    .ani {
+        padding: 10px;
+    }
+
+    .lore {
+        font-size: 1rem !important;
+        -webkit-text-stroke: 0px !important;
+        color: black !important;
+    }
+
+    .inp h1,
+    .inp2 h1 {
+        font-size: 1.5rem;
+    }
+
+    .inp p,
+    .inp2 p {
+        font-size: 14px;
+    }
+
+    .bk {
+        width: 95%;
+    }
+
+    .card1 {
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .cardcr {
+        width: 95%;
+    }
+
+    .cardcr img {
+        height: auto;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: 250px !important;
+    }
+
+    .program {
+        height: auto;
+    }
+
+    .owl img {
+        height: 200px;
+    }
+}
+
+
+/* ye resposive code hai for Small Mobile */
+@media screen and (max-width: 480px) {
+
+    .logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .h1 h1 {
+        font-size: 1.6rem !important;
+    }
+
+    .oh1 h1 {
+        font-size: 1.6rem !important;
+    }
+
+    .book,
+    .course {
+        gap: 15px;
+    }
+
+    .card-body h4 {
+        font-size: 1rem !important;
+    }
+
+    .crdbt {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
