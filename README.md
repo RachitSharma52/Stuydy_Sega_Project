@@ -6,6 +6,7 @@ This is a simple educational website project built using HTML, CSS, and JavaScri
 - Home page
 - Login & Signup pages
 - Course section
+- Book section
 - Responsive UI design
 - Organized folder structure
 
